@@ -1,0 +1,10 @@
+Topic Covered
+
+A. JavaScript Property
+ 1-> Internpreted Language
+ 2-> Dynamically Typed
+ 3-> Single Thread 
+ 4-> Garbage Collector
+
+B. Syntax of JavaScript
+C. Few details around-> variables, if&Else, dataTypes, Operator, function, Loops, arrays, objects
