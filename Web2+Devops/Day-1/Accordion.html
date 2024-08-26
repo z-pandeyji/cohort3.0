@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accordion</title>
+</head>
+<style>
+    section.container {
+    border: 1px solid;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.acc-container {
+    background: #fafafa;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+.display-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.down-arrow-icon {
+    font-size: 20px;
+    cursor: pointer;
+}
+.content-value {
+    display: none;
+}
+div.active {
+    display: block;
+    transition: all 0.5s ease-in-out;
+}
+.up-arrow-icon {
+    display: none;
+    cursor: pointer;
+}
+</style>
+<body>
+    <section class="container">
+        <div class="acc-container">
+            <div class="display-flex">
+                <p>Accordion 1</p>
+                <span class="down-arrow-icon">↓</span>
+                <span class="up-arrow-icon">↑</span>
+            </div>
+            <div class="content-value" id="val">
+                <p>Lorem Ipsum text</p>
+            </div>
+        </div>
+    </section>
+    <script>
+        let activeValue = document.querySelector("#val");
+        let arrowIcon = document.querySelector(".down-arrow-icon");
+        let UParrowIcon = document.querySelector(".up-arrow-icon");
+        arrowIcon.addEventListener("click", function() {
+            activeValue.className = "active";
+            arrowIcon.style.display = "none";
+            UParrowIcon.style.display = "block";
+        });
+     
+            UParrowIcon.addEventListener("click", function() {
+            activeValue.className = "content-value";
+            arrowIcon.style.display = "block";
+            UParrowIcon.style.display = "none";
+        });
+        
+        </script>
+</body>
+</html>

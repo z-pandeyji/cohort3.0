@@ -28,7 +28,8 @@ console.log(value);
 // Option B
 
 function allSum2(n) {
-    return n * (n + 1) / 2;
+    // return n * (n + 1) / 2;
+    return (n/2)*(n+1);
 }
 
 const value2 = allSum2(4);

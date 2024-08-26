@@ -7,7 +7,7 @@ function addTwoNum(a,b) {
     return totalSum;
 }
 
-const withoutStr = addTwoNum(4,5);
-const withStr = addTwoNum("7","8");
+const withoutStr = addTwoNum(4,5); // Output: 9
+const withStr = addTwoNum("7","8"); // output: 78
 console.log(withoutStr);
 console.log(withStr);
