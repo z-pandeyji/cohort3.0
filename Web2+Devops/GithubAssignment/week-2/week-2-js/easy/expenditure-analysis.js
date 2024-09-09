@@ -10,11 +10,25 @@
 		category: 'Food',
 		itemName: 'Pizza',
 	}
-  Output - [{ category: 'Food', totalSpent: 10 }] // Can have multiple categories, only one example is mentioned here
+  Output - [{ category: 'Food', totalSpent: 10 }] //  Can have multiple categories, only one example is mentioned here
 */
 
+
+
 function calculateTotalSpentByCategory(transactions) {
-  return [];
+  const totalValue = [];
+transactions.forEach(val => {
+  const sameCategory = totalValue.find((item) => item.category === val.category);
+  if(sameCategory) {
+    sameCategory.totalSpent += val.price;
+  } else {
+    totalValue.push({
+      category: val.category,
+      totalSpent: val.price,
+    });
+  }
+});
+return totalValue;
 }
 
 module.exports = calculateTotalSpentByCategory;
