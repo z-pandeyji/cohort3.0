@@ -1,0 +1,19 @@
+Topics Covered
+1. I/O Task - heavy operations refer to tasks in a computer program that involve a lot of data 
+transfer between the program and external systems or devices.
+
+2. Callbacks - A callback is a function that is passed as an argument to another function and is
+called when the outer function has finished its execution.
+
+3. functional arguments - Create a function that accepts a function as an argument.
+
+4. Async vs Sync Code - Asynchronous code is code that runs outside of the main thread of execution.
+Synchronous code is code that runs inside the main thread of execution.
+
+5. Event Loops - The event loop constantly checks if the call stack is empty. If it is, and there are 
+callbacks in the callback queue, it will push the first callback from the queue onto the call stack for 
+execution.
+
+6. Callback queues - when a callback is added to a queue, the event loop will check the queue and 
+execute the callbacks that are ready to be executed.
+   

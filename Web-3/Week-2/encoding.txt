@@ -1,0 +1,6 @@
+Encoding Types
+
+1- Ascii -> 0-9, a-z, A-Z 
+2- Hex(base16)  -> 0-9, a-z, A-Z 
+3- Base64 -> A-Z, a-z, 0-9, +, / 
+4- Base58 -> include(A-Z,a-z, 1-9) Exclude(I,O,0,+,/) {Similar to Base64}

@@ -1,0 +1,20 @@
+Asymetric Encryption is known as public key cryptography. 
+
+In this Ecryption Method we use key pair. 
+
+Public Key to encrypt the data/Message/file. You can send this with anyone.
+
+AND 
+
+Private Key to decrypt the data/Message/file.
+
+
+Example Use Cases:
+
+Sending Secure Messages: If you want to send a message securely to someone, 
+you encrypt the message with their public key, and only they (with their private key) can decrypt it.
+
+Digital Signatures: Asymmetric encryption is also used for digital signatures 
+where the sender uses their private key to sign a message, and anyone can verify the signature 
+using the sender's public key.
+

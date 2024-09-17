@@ -1,5 +1,0 @@
-Classes in JS
-Revise callbacks
-Callback hell
-Promises
-Async await

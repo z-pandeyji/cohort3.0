@@ -1,0 +1,1 @@
+In this Encryption Method we can encrypt and decrypt the message with the same key. 

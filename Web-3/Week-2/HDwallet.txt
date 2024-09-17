@@ -1,0 +1,1 @@
+It is a type of wallet that can generate a tree of key pairs from a single seed.

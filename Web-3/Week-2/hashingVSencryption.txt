@@ -1,0 +1,3 @@
+Hashing is one way and it is fixed size string of characters, which is typically random. 
+
+Encryption: Encrypt data can be decrypt using a key. 

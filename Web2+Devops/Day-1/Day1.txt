@@ -1,5 +1,0 @@
-Topics Covered
-1-> Flex
-2-> Margin Padding
-3-> Basic CSS and HTML 
-4-> Digital Fingerprinting

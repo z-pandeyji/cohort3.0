@@ -1,0 +1,13 @@
+11001010 convert to decimal 
+write opposite number and then multiply by 2 and increase the power of 2 start from 0(zero). 
+
+0 x 2^0 = 0
+1 x 2^1 = 2
+0 x 2^2 = 0
+1 x 2^3 = 8
+0 x 2^4 = 0
+0 x 2^5 = 0
+1 x 2^6 = 64
+1 x 2^7 = 128
+
+now add it : 128 +64 + 2 = 202 Answer.
